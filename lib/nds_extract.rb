@@ -5,8 +5,10 @@ def directors_totals(nds)
  
  new_hash = {}
   row_index = 0 
+  
+  #  binding.pry 
 
-  while row_index < nds[row_index][:name].length do 
+  while row_index < nds.length do 
   
     temp_movies = nds[row_index][:movies].length 
     
@@ -21,10 +23,12 @@ def directors_totals(nds)
       column_index += 1 
     end
     new_hash[directors_name] = sub_total
-     #binding.pry
+
 
    row_index += 1 
   end 
+ 
+
  
  new_hash
  
