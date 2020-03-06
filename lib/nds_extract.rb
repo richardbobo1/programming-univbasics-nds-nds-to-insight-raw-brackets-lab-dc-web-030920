@@ -32,6 +32,7 @@ def directors_totals(nds)
  
  new_hash
  
+ # note to self, binding.pry and then exit and return again to see value 
   
   
   #pp nds[0][:movies][0][:worldwide_gross]
